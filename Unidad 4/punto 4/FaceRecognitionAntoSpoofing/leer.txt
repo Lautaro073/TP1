@@ -1,0 +1,1 @@
+este proyecto funciona con python 8.0 y mediapipe 0.8.6.2
