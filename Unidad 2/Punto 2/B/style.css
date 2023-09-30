@@ -1,0 +1,61 @@
+
+body {
+    background-image: url('./img/mike-swigunski-Of_u2aPwugw-unsplash.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff; 
+}
+
+
+form {
+    max-width: 300px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form label {
+    display: block;
+    color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px 0; 
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #e74c3c; 
+    background-color: transparent; 
+    font-size: 16px;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: transparent; 
+    color: #3c78e7; 
+    cursor: pointer;
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
+    display: inline-block; 
+    padding-bottom: 2px; 
+    margin-bottom: 0;
+}
+
+form input[type="submit"]:hover {
+    color: #c0392b; 
+    border-bottom: 2px solid #e74c3c; 
+}
